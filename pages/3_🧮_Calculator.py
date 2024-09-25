@@ -4,7 +4,7 @@ import streamlit as st
 with st.container():
     
     # title and sub header
-    st.title("🔗 Calculator")
+    st.title("🧮 Calculator")
     st.write("A basic arithmetic calculator for simple computation.")
     
 # calculator container
