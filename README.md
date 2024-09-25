@@ -6,3 +6,6 @@ Utilizing the basic functionality of the random library to generate a random str
 
 ## URL Shortener
 Utilizing pyshorteners and validators library. Pyshorteners is used to generate a shortened URL via the TinyURL API. Validators is used as a method to ensure that the user enters a valid URL before being passed through the API.
+
+## Calculator
+A basic arithmetic calculator capable of addtion, subraction, multiplication, division, and modulus operands. This calculator is able to detect if division by zero has been requested, and properly notifies the user of the inability to process such operation.
