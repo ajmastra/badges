@@ -4,32 +4,38 @@ from pass_gen import *
 
 # page config
 st.set_page_config(
-    page_title="Password Generator",
+    page_title="Python Utilities",
     page_icon="💻",
-    layout="wide"
+    layout="centered"
 )
-
 
 # header container
 with st.container():
     
-    st.title("Password Generator")
-    st.write("A simple yet effective way to generate strong passwords.")
+    st.title("Welcome to Python Web Utilities!")
+    st.write("A collection of useful tasks, automated by Python.")
     
-# generator container
+# navigation container
 with st.container():
     st.write("---")
 
-    password_length = st.slider("Choose your password length", min_value = 10, 
-                                            max_value = 100, value = 50, step=1)
+    # link password generator
+    st.page_link(
+        "pages/1_🧮_Password_Generator.py", 
+        label=None, 
+        icon="🧮",
+        use_container_width=True
 
-    if st.button("Generate a Password"):
-        password = generate_password(password_length)
-        st.text(password)
+    )
 
-    # if a password has not been generated yet
-    #if password != '':
-    #    st.write({password})
+    # link url shortener
+    st.page_link(
+        "pages/2_🔗_URL_Shortener.py", 
+        label=None, 
+        icon="🔗",
+        use_container_width=True
+
+    )
 
 # contact info container
 with st.container():
