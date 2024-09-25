@@ -21,9 +21,9 @@ with st.container():
 
     # link password generator
     st.page_link(
-        "pages/1_🧮_Password_Generator.py", 
+        "pages/1_🔑_Password_Generator.py", 
         label=None, 
-        icon="🧮",
+        icon="🔑",
         use_container_width=True
 
     )
@@ -33,6 +33,15 @@ with st.container():
         "pages/2_🔗_URL_Shortener.py", 
         label=None, 
         icon="🔗",
+        use_container_width=True
+
+    )
+
+    # link url shortener
+    st.page_link(
+        "pages/3_🧮_Calculator.py", 
+        label=None, 
+        icon="🧮",
         use_container_width=True
 
     )
