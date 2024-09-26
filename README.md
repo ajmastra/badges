@@ -1,6 +1,6 @@
 # Python Utilities Multipage Web-App
 Utilizing StreamLit for implementing a basic webpage.  
-See it in action [here!](https://python-multipage-webapp-utilities.streamlit.app/)
+See it in action [here!](https://python-utilities-multipage-webapp.streamlit.app/)
 ## Password Generator 
 Utilizing the basic functionality of the random library to generate a random string of any ASCII characters. The length is determined by the user, and returned in an easy to copy/paste format.
 
